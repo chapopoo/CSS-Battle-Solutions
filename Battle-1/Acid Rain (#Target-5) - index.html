@@ -1,0 +1,35 @@
+<div class="one"></div>
+<div class="two"></div>
+<div class="three"></div>
+<style>
+  body {
+  margin: 0;
+  background: #0b2429;
+}
+.one, .two, .three {
+  position: absolute;
+  width: 120;
+  height: 120;
+  background: #998235;
+  border-radius: 50% 0 50% 50%;  
+}
+.one, .three {
+  background: #f3ac3c; 
+}
+.one {
+  left: 20%;
+  top: 50%;
+  z-index: 2;
+}
+.two {
+  z-index: 1;
+  left: 35%;
+  top: 30%;
+}
+.three {
+  transform: rotate(180deg);
+  left: 50%;
+  top: 10%;
+  z-index: 0;
+}
+</style>
