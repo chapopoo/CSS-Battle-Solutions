@@ -1,0 +1,30 @@
+<div class="one"></div>
+<div class="two"></div>
+<div class="three"></div>
+<style>
+  body {
+  margin: 0;
+  background: #e3516e;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
+.one, .two, .three {
+  width: 100;
+  height: 100;
+}
+.one {
+  background: #51b5a9;
+  border-radius: 100% 0 0 0; 
+  place-self: end;
+}
+.two{
+  background: #FADE8B;
+  border-radius: 0 100% 0 0;
+  align-self: end;
+}
+.three{
+  background: #F7F3D7;
+  border-radius: 0 0 0 100%;
+  place-self: start end;
+}
+</style>
