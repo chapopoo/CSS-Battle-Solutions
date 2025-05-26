@@ -1,0 +1,50 @@
+<div class="firstdot"></div>
+<div class="first"></div>
+<div class="second"></div>
+<div class="third"></div>
+<div class="seconddot"></div>
+<style>
+body{
+  background: #F5D6B4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div{
+  width: 60px;
+  position: relative;
+}
+.second{
+  height: 32px;
+  border: 20px solid #D86F45;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom: 0;
+  bottom: 24px;
+}
+.first, .third{
+  height: 60px;
+  border: 20px solid #D86F45;
+  border-top-color: transparent;
+  border-right-color:transparent;
+  border-radius: 50%;
+  transform: rotate(-45deg);
+}
+.first{
+  left: 20px;
+}
+.third{
+  right: 20px;
+}
+.firstdot, .seconddot{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #D86F45;
+}
+.firstdot{
+  left: 40px;
+}
+.seconddot{
+  right: 40px;
+}
