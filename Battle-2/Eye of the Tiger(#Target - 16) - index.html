@@ -1,0 +1,41 @@
+<div class="outer"></div>
+<div class="inner"></div>
+<style>
+  body{
+    background: #0B2429;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+.outer{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background: #998235;
+  transform: rotate(45deg);
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  z-index: 1;
+}
+.inner{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 45px solid #F3AC3C;
+  z-index: 2;
+  background: #0B2429;
+  position:relative;
+}
+.inner::after {
+  position: absolute;
+  content: '';
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 20px solid #0B2429;
+  left: -65px;
+  top: -65px;
+}
+</style>
