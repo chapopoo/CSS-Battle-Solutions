@@ -14,7 +14,13 @@ Each folder corresponds to a battle, and each file contains:
 
 ## Battles Completed:
 - Battle #1 — Pilot Battle
-- Battle #2 — In Progress
+- Battle #2 — Visibility
+- Battle #3 — Cursor
+- Battle #4 — Display
+- Battle #5 — Inline
+- Battle #6 — Conic
+- Battle #7 — Backface
+- Battle #8 — Transition
 
 ## Note:
 This is a learning project. I believe in growing by understanding and recreating—every solution here reflects a step in that journey.
