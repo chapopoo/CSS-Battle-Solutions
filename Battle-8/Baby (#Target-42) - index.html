@@ -1,0 +1,44 @@
+<div>
+  <p></p>
+  <p></p>
+</div>
+<span></span>
+<style>
+body{
+  background: #293462;
+  display:grid;
+  place-items: center;
+}
+div {
+  width: 200px;
+  height: 200px;
+  background: #FE5F55;
+  border-radius: 100px 100px 50px 50px;
+  display:flex;
+  overflow:hidden;
+}
+p, p::before, span{
+  background: #FFF1C1;
+}
+p{
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  translate: 0 -66px;
+}
+p::before{
+  content:"";
+  display:block;
+  width:60px;
+  height:60px;
+  border-radius: 50%;
+  translate: 20px 140px;
+}
+span{
+  width: 40px;
+  height: 10px;
+  position: absolute;
+  border-radius: 10px;
+  bottom: 70px;
+}
+</style>
