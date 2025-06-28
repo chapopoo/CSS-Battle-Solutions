@@ -1,0 +1,28 @@
+<!-- It is not a 100% Match -->
+<div></div>
+<style>
+body{
+  background:#1A4341;
+  display:grid;
+  place-items: center;
+}
+div{
+  width: 160px;
+  height: 180px;
+  background:repeating-linear-gradient(#F3AC3C 0px 20px, #1A4341 20px 40px);
+}
+div::before, div::after{
+  content:"";
+  display:block;
+  width:190px;
+  height:249px;
+  border-radius:50%;
+  background: #1A4341;
+}
+div::before{
+  transform: translate(-160px, -37px);
+}
+div::after{
+  transform: translate(130px, -285px);
+}
+</style>
