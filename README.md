@@ -21,6 +21,8 @@ Each folder corresponds to a battle, and each file contains:
 - Battle #6 — Conic
 - Battle #7 — Backface
 - Battle #8 — Transition
+- Battle #9 — Margin
+- Battle #10 — Block
 
 ## Note:
 This is a learning project. I believe in growing by understanding and recreating—every solution here reflects a step in that journey.
