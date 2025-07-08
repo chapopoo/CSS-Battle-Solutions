@@ -1,0 +1,43 @@
+<div id="roof"></div>
+<div id="base">
+  <p id="up"></p>
+  <p id="down"></p>
+</div>
+<style>
+body{
+  background:#6592CF;
+  display:grid;
+  place-content:center;
+}
+#roof{ 
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid #243D83;
+}
+#base{
+  width:150px;
+  height:100px;
+  background:#243D83;
+  left: 25px;
+  position: relative;
+  border-radius: 0 0 10px 10px;
+}
+p{
+  background: #EEB850;
+  position: absolute;
+}
+#up{
+  width: 100px;
+  height: 10px;
+  left: 25px;
+  bottom: 79px;
+  border-radius: 20px;
+}
+#down{
+  width: 50px;
+  height: 50px;
+  left: 50px;
+  bottom:-16px;
+  border-radius: 10px 10px 0 0;
+}
+</style>
