@@ -1,0 +1,51 @@
+<div>
+  <p id="a"></p>
+  <p id="b"></p>
+</div>
+<style>
+body{
+  background:#293462;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+div{
+  background:#FFF1C1;
+  width:150px;
+  height:100px;
+  border-radius: 0 0 50px 50px;
+  position:relative;
+}
+div::before, div::after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  border: 10px solid #FFF1C1;
+  border-radius: 50px 0 0 50px;
+  top:0;
+}
+div::before{
+  left: -60px;
+}
+div::after{
+  right: -60px;
+  rotate:180deg;
+}
+#a, #b{
+  width:40px;
+  background:#FE5F55;
+}
+#a{
+  height:10px;
+  translate:20px 5px;
+  border-radius: 10px;
+  box-shadow: 0px 20px #FE5F55;
+}
+#b{
+  height:40px;
+  border-radius: 50px;
+  translate: 90px -2px;
+}
+</style>
