@@ -1,0 +1,28 @@
+<div id="circle"></div>
+<div id="rectangle"></div>
+<style>
+body{
+  background:#19191A;
+  display:grid;
+  place-content:center;
+}
+div{
+  width: 100px;
+  height: 100px;
+  background: #dd6b4d;
+}
+#circle{
+  width: 150px;
+  height: 150px;
+  border-radius:50%;
+  background: linear-gradient(0deg, transparent 50%, #4F77FF 50%),linear-gradient(270deg, #4F77FF 50%, #9AD5FF 50%);
+  translate: 0px 38px;
+  z-index:1
+}
+#rectangle{
+  width: 75px;
+  height: 125px;
+  translate: 0px -38px;
+  background:#F9E492;
+}
+</style>
